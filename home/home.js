@@ -20,8 +20,6 @@ firebase.initializeApp(config);
     var password = $scope.user.password;
     firebase.auth().signInWithEmailAndPassword(email, password).then(function(success){
       shareDataService.addUser(email);
-      console.log(success);
-      console.log('Successfully Logged In');
       $location.path('/welcome');
     })
     .catch(function(error) {
@@ -35,18 +33,6 @@ firebase.initializeApp(config);
   }
   console.log(error);
 });
-  /*  loginObj.$authWithPassword({
-            email: username,
-            password: password
-        })
-        .then(function(user) {
-            //Success callback
-            console.log('Authentication successful');
-        }, function(error) {
-            //Failure callback
-            console.log('Authentication failure');
-
-        });*/
       }
       }])
       
