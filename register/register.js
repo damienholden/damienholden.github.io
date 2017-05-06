@@ -18,8 +18,6 @@ angular.module('myApp.register', ['ngRoute','firebase'])
               if (email && password) {
                 //  auth.$createUser({email:email, password:password})
                   firebase.auth().createUserWithEmailAndPassword(email, password).then(function(success){
-                    console.log(success);
-                    console.log('New User Successfully Created');
                     $location.path('/home');
                   })
                   .catch(function(error) {
@@ -30,9 +28,6 @@ angular.module('myApp.register', ['ngRoute','firebase'])
                   $scope.regError = true;
                   console.log(errorCode);
                   console.log(errorMessage);
-                /*  alert(errorCode);
-                  alert(errorMessage);*/
-
                 });
               }
           }
