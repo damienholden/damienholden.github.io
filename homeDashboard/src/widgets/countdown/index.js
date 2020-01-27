@@ -2,7 +2,7 @@ import React from "react";
 export class CountdownWidget extends React.Component {
   constructor(props) {
     super(props);
-    const then = new Date(2020, 01, 14);
+    const then = new Date("2020, 3, 14");
     const today = new Date();
     const count = Math.abs(Math.round((today - then) / (1000 * 60 * 60 * 24)));
     this.state = {
@@ -11,7 +11,7 @@ export class CountdownWidget extends React.Component {
   }
   componentDidMount() {
     setInterval(() => {
-      const then = new Date(2020, 3, 14);
+      const then = new Date("2020, 3, 14");
       const today = new Date();
       const count = Math.abs(
         Math.round((today - then) / (1000 * 60 * 60 * 24))
