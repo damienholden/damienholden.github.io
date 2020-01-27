@@ -1,0 +1,13 @@
+body {
+  height: 100vh;
+  background: url(../assets/images/dashboardBG.jpg) center;
+  background-size: cover;
+}
+.widget {
+  padding: 2em;
+  margin: 2em;
+  color: white;
+  border-radius: 8px;
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.8);
+}

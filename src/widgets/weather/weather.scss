@@ -1,0 +1,14 @@
+.weather {
+  min-height: 115px;
+  min-width: 210px;
+  .heading {
+    margin-bottom: 0.75em;
+  }
+  .group {
+    display: inline-block;
+    text-align: center;
+    border: solid 1px white;
+    margin: 1em;
+    padding: 0.75em;
+  }
+}

@@ -1,4 +1,2 @@
-# [damienholden.github.io](https://damienholden.github.io)
-Damienholden.me 1.01
-
-Personal Website built using Angularjs and Bootstrap
+# homeDashboard
+https://medium.com/javascript-in-plain-english/how-to-build-a-home-dashboard-in-react-parcel-and-alexa-41f4eb2ebe5a
