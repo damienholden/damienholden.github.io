@@ -2,7 +2,6 @@
   "name": "dhome",
   "version": "1.0.0",
   "description": "https://medium.com/javascript-in-plain-english/how-to-build-a-home-dashboard-in-react-parcel-and-alexa-41f4eb2ebe5a",
-  "main": "index.js",
   "dependencies": {
     "@babel/core": "^7.6.2",
     "@babel/plugin-proposal-class-properties": "^7.5.5",
@@ -56,5 +55,17 @@
   "bugs": {
     "url": "https://github.com/damienholden/homeDashboard/issues"
   },
-  "homepage": "https://github.com/damienholden/homeDashboard"
+  "homepage": "https://github.com/damienholden/homeDashboard",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }

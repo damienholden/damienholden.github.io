@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/damienholden/homeDashboard/static/js/main.30813d71.chunk.js",
+    "main.js.map": "/damienholden/homeDashboard/static/js/main.30813d71.chunk.js.map",
+    "runtime-main.js": "/damienholden/homeDashboard/static/js/runtime-main.7850e12a.js",
+    "runtime-main.js.map": "/damienholden/homeDashboard/static/js/runtime-main.7850e12a.js.map",
+    "static/js/2.c8a3bf65.chunk.js": "/damienholden/homeDashboard/static/js/2.c8a3bf65.chunk.js",
+    "static/js/2.c8a3bf65.chunk.js.map": "/damienholden/homeDashboard/static/js/2.c8a3bf65.chunk.js.map",
+    "index.html": "/damienholden/homeDashboard/index.html",
+    "precache-manifest.28f5470ffd7d316c80c2e7d1050bed77.js": "/damienholden/homeDashboard/precache-manifest.28f5470ffd7d316c80c2e7d1050bed77.js",
+    "service-worker.js": "/damienholden/homeDashboard/service-worker.js",
+    "static/js/2.c8a3bf65.chunk.js.LICENSE.txt": "/damienholden/homeDashboard/static/js/2.c8a3bf65.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7850e12a.js",
+    "static/js/2.c8a3bf65.chunk.js",
+    "static/js/main.30813d71.chunk.js"
+  ]
+}
