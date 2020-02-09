@@ -18,7 +18,9 @@
     "request": "^2.83.0",
     "sass": "^1.22.10",
     "underscore": "^1.8.3",
-    "victory": "^33.1.0"
+    "victory": "^33.1.0",
+    "gh-pages": "^2.2.0",
+    "react-scripts": "3.3.1"
   },
   "devDependencies": {
     "@babel/core": "^7.6.2",
@@ -38,8 +40,10 @@
     "underscore": "^1.8.3"
   },
   "scripts": {
-    "start": "parcel ./src/index.html",
-    "build": "parcel build ./src/index.html",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
