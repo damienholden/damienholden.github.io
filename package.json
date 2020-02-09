@@ -48,14 +48,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/damienholden/homeDashboard.git"
+    "url": "git+https://damienholden.github.io.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/damienholden/homeDashboard/issues"
+    "url": "https://damienholden.github.io/"
   },
-  "homepage": "https://github.com/damienholden/homeDashboard",
+  "homepage": "https://damienholden.github.io/",
   "browserslist": {
     "production": [
       ">0.2%",
