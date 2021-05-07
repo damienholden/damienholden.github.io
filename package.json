@@ -16,7 +16,7 @@
     "react-dom": "^16.9.0",
     "request": "^2.83.0",
     "sass": "^1.22.10",
-    "underscore": "^1.8.3",
+    "underscore": "^1.12.1",
     "victory": "^33.1.0",
     "gh-pages": "^2.2.0",
     "react-scripts": "3.3.1"
@@ -36,7 +36,7 @@
     "prettier": "^1.18.2",
     "request": "^2.83.0",
     "sass": "^1.22.10",
-    "underscore": "^1.8.3"
+    "underscore": "^1.12.1"
   },
   "scripts": {
     "start": "react-scripts start",
